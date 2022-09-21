@@ -48,14 +48,27 @@ i{
     padding: 0 5px;
 }
 /* main */
-img{
+.img1{
+    display:  inline-block;
+    padding-top: 60px;
     height: 645px;
     width: 445px;
 }
+.img1a{
+    display: block;
+    position: relative;
+}
+.img1b{
+    display: inline-block;
+}
+.img-hover{
+    display: none;
+}
 .img1:hover .img1b{
     display: block;
+    
 }
-.img1:hover .img1{
+.img1:hover .img1a{
     display: none;
 }
 
