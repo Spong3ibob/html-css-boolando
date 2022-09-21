@@ -25,7 +25,6 @@ ul{
     display: flex;
     color: white;
     width: 20%;
-    text-align: left;
 }
 li{
     text-decoration: none;
@@ -44,11 +43,21 @@ li{
 .login{
     width: 20%;
     color: white;
-    text-align: right;
 }
 i{
     padding: 0 5px;
 }
 /* main */
+img{
+    height: 645px;
+    width: 445px;
+}
+.img1:hover .img1b{
+    display: block;
+}
+.img1:hover .img1{
+    display: none;
+}
+
 
 /* footer */
