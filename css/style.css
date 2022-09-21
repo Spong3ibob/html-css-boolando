@@ -4,8 +4,51 @@
     margin: 0;
     padding: 0;
 }
+/* common */
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
 /* header */
-
+header{
+    background-color:  #FF6900;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+ul{
+    display: flex;
+    color: white;
+    width: 20%;
+    text-align: left;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 5px;
+}
+.logo{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo{
+    height: 30px;
+    width: auto;
+}
+.login{
+    width: 20%;
+    color: white;
+    text-align: right;
+}
+i{
+    padding: 0 5px;
+}
 /* main */
 
 /* footer */
